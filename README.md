@@ -18,9 +18,10 @@ pip install pdf2image
 ------------------------------
 
 2)
-if:
-    raise PDFInfoNotInstalledError(
-    pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+if alarm was raised:
+
+    [i]raise PDFInfoNotInstalledError(pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?[/i]
+    
 download poppler from https://github.com/oschwartz10612/poppler-windows/releases/ and add path to its folder in File class
 
 ------------------------------
