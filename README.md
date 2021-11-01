@@ -10,12 +10,18 @@ resources:
 -https://github.com/oschwartz10612/poppler-windows/releases/
 
 
+------------------------------
+
+description:
+
+this is simple program, that converts pdf file to png
+
+------------------------------
+
 requirements:
 
 1) 
 pip install pdf2image
-
-------------------------------
 
 2)
 if alarm was raised:
@@ -24,7 +30,4 @@ if alarm was raised:
     
 download poppler from https://github.com/oschwartz10612/poppler-windows/releases/ and add path to its folder in File class
 
-------------------------------
 
-description:
-this is simple program, that converts pdf file to png
