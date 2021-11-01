@@ -22,10 +22,14 @@ class File:
 
 class PdfFile(File):
     def __init__(self, filename, input_path = "pdf", output_path = 'png', input_file_type = ".pdf"):
-        super().__init__(filename, input_path = "pdf", output_path = 'png', input_file_type = ".pdf")
+        super().__init__(filename, input_path, output_path, input_file_type)
 
         self.import_pdf_file_pages()
-        self.convert_pdf_to_png(filename)
+
+        if output_path == "png":
+            self.convert_pdf_to_png(filename)
+        else:
+            print("wrong format")
 
 
     def import_pdf_file_pages(self):
