@@ -1,7 +1,5 @@
 author: a5892731
 
-creation date: 2021-11-01
-
 last update:2021-11-01
 
 version: 1.1
